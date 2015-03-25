@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE7147EFC820E76CF78CA852 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FC00197C380DCF396FCC9A /* libPods.a */; };
+		DB7330CD1AB7C262003361AD /* PoppinBasicBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7330CC1AB7C262003361AD /* PoppinBasicBuilder.swift */; };
+		DB7330CF1AB7CB55003361AD /* PoppinRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7330CE1AB7CB55003361AD /* PoppinRegister.swift */; };
+		DBF286DC1AC25E420046ABB7 /* PoppinSpringBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF286DB1AC25E420046ABB7 /* PoppinSpringBuilder.swift */; };
+		DBF3BF751AB331F200DD30BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BF741AB331F200DD30BA /* AppDelegate.swift */; };
+		DBF3BF771AB331F200DD30BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BF761AB331F200DD30BA /* ViewController.swift */; };
+		DBF3BF7A1AB331F200DD30BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF3BF781AB331F200DD30BA /* Main.storyboard */; };
+		DBF3BF7C1AB331F200DD30BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF3BF7B1AB331F200DD30BA /* Images.xcassets */; };
+		DBF3BF7F1AB331F200DD30BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBF3BF7D1AB331F200DD30BA /* LaunchScreen.xib */; };
+		DBF3BF8B1AB331F300DD30BA /* PoppinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BF8A1AB331F300DD30BA /* PoppinTests.swift */; };
+		DBF3BF961AB3327700DD30BA /* PoppinAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BF951AB3327700DD30BA /* PoppinAnimation.swift */; };
+		DBF3BFB11AB334A000DD30BA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BF981AB334A000DD30BA /* Color.swift */; };
+		DBF3BFB21AB334A000DD30BA /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BF9A1AB334A000DD30BA /* Dispatch.swift */; };
+		DBF3BFB31AB334A000DD30BA /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BF9B1AB334A000DD30BA /* Future.swift */; };
+		DBF3BFB41AB334A000DD30BA /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BF9C1AB334A000DD30BA /* Signal.swift */; };
+		DBF3BFB51AB334A000DD30BA /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BF9D1AB334A000DD30BA /* Date.swift */; };
+		DBF3BFB61AB334A000DD30BA /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BF9E1AB334A000DD30BA /* Dictionary.swift */; };
+		DBF3BFB71AB334A000DD30BA /* ListExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BFA01AB334A000DD30BA /* ListExtension.swift */; };
+		DBF3BFB81AB334A000DD30BA /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BFA11AB334A000DD30BA /* Logging.swift */; };
+		DBF3BFB91AB334A000DD30BA /* ServiceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BFA31AB334A000DD30BA /* ServiceUtil.swift */; };
+		DBF3BFBA1AB334A000DD30BA /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BFA51AB334A000DD30BA /* Decoder.swift */; };
+		DBF3BFBB1AB334A000DD30BA /* OptionalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BFA61AB334A000DD30BA /* OptionalExtension.swift */; };
+		DBF3BFBC1AB334A000DD30BA /* Rect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BFA71AB334A000DD30BA /* Rect.swift */; };
+		DBF3BFBD1AB334A000DD30BA /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BFA81AB334A000DD30BA /* Segue.swift */; };
+		DBF3BFBE1AB334A000DD30BA /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BFA91AB334A000DD30BA /* Storage.swift */; };
+		DBF3BFBF1AB334A000DD30BA /* IntervalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BFAB1AB334A000DD30BA /* IntervalExtension.swift */; };
+		DBF3BFC01AB334A000DD30BA /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BFAC1AB334A000DD30BA /* Timer.swift */; };
+		DBF3BFC11AB334A000DD30BA /* Try.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BFAE1AB334A000DD30BA /* Try.swift */; };
+		DBF3BFC21AB334A000DD30BA /* UIControlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BFB01AB334A000DD30BA /* UIControlExtension.swift */; };
+		DBF3BFC41AB336C500DD30BA /* GroupedPoppinAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BFC31AB336C500DD30BA /* GroupedPoppinAnimation.swift */; };
+		DBF3BFCA1AB33CDD00DD30BA /* PoppinLifeCycleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3BFC91AB33CDD00DD30BA /* PoppinLifeCycleManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBF3BF851AB331F300DD30BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF3BF671AB331F200DD30BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF3BF6E1AB331F200DD30BA;
+			remoteInfo = Poppin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D8905F85697E8A75760CAD1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DB7330CC1AB7C262003361AD /* PoppinBasicBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoppinBasicBuilder.swift; sourceTree = "<group>"; };
+		DB7330CE1AB7CB55003361AD /* PoppinRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoppinRegister.swift; sourceTree = "<group>"; };
+		DBF286DB1AC25E420046ABB7 /* PoppinSpringBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoppinSpringBuilder.swift; sourceTree = "<group>"; };
+		DBF3BF6F1AB331F200DD30BA /* Poppin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poppin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF3BF731AB331F200DD30BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF3BF741AB331F200DD30BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBF3BF761AB331F200DD30BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBF3BF791AB331F200DD30BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBF3BF7B1AB331F200DD30BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBF3BF7E1AB331F200DD30BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DBF3BF841AB331F300DD30BA /* PoppinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoppinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF3BF891AB331F300DD30BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF3BF8A1AB331F300DD30BA /* PoppinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoppinTests.swift; sourceTree = "<group>"; };
+		DBF3BF951AB3327700DD30BA /* PoppinAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoppinAnimation.swift; sourceTree = "<group>"; };
+		DBF3BF981AB334A000DD30BA /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DBF3BF9A1AB334A000DD30BA /* Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatch.swift; sourceTree = "<group>"; };
+		DBF3BF9B1AB334A000DD30BA /* Future.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Future.swift; sourceTree = "<group>"; };
+		DBF3BF9C1AB334A000DD30BA /* Signal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
+		DBF3BF9D1AB334A000DD30BA /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		DBF3BF9E1AB334A000DD30BA /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		DBF3BFA01AB334A000DD30BA /* ListExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListExtension.swift; sourceTree = "<group>"; };
+		DBF3BFA11AB334A000DD30BA /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		DBF3BFA31AB334A000DD30BA /* ServiceUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceUtil.swift; sourceTree = "<group>"; };
+		DBF3BFA51AB334A000DD30BA /* Decoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
+		DBF3BFA61AB334A000DD30BA /* OptionalExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalExtension.swift; sourceTree = "<group>"; };
+		DBF3BFA71AB334A000DD30BA /* Rect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rect.swift; sourceTree = "<group>"; };
+		DBF3BFA81AB334A000DD30BA /* Segue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Segue.swift; sourceTree = "<group>"; };
+		DBF3BFA91AB334A000DD30BA /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		DBF3BFAB1AB334A000DD30BA /* IntervalExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalExtension.swift; sourceTree = "<group>"; };
+		DBF3BFAC1AB334A000DD30BA /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		DBF3BFAE1AB334A000DD30BA /* Try.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Try.swift; sourceTree = "<group>"; };
+		DBF3BFB01AB334A000DD30BA /* UIControlExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIControlExtension.swift; sourceTree = "<group>"; };
+		DBF3BFC31AB336C500DD30BA /* GroupedPoppinAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupedPoppinAnimation.swift; sourceTree = "<group>"; };
+		DBF3BFC51AB33A8B00DD30BA /* Poppin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Poppin-Bridging-Header.h"; sourceTree = "<group>"; };
+		DBF3BFC91AB33CDD00DD30BA /* PoppinLifeCycleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoppinLifeCycleManager.swift; sourceTree = "<group>"; };
+		E0FC00197C380DCF396FCC9A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37649B3CF4E87D6ADC5EADD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBF3BF6C1AB331F200DD30BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7147EFC820E76CF78CA852 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF3BF811AB331F300DD30BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		538C3C12BF6808788A94E227 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0FC00197C380DCF396FCC9A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		845FD51518EC660047A94B4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E37649B3CF4E87D6ADC5EADD /* Pods.debug.xcconfig */,
+				7D8905F85697E8A75760CAD1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DBF3BF661AB331F200DD30BA = {
+			isa = PBXGroup;
+			children = (
+				DBF3BF711AB331F200DD30BA /* Poppin */,
+				DBF3BF871AB331F300DD30BA /* PoppinTests */,
+				DBF3BF701AB331F200DD30BA /* Products */,
+				845FD51518EC660047A94B4B /* Pods */,
+				538C3C12BF6808788A94E227 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBF3BF701AB331F200DD30BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3BF6F1AB331F200DD30BA /* Poppin.app */,
+				DBF3BF841AB331F300DD30BA /* PoppinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBF3BF711AB331F200DD30BA /* Poppin */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3BF971AB334A000DD30BA /* FSwift */,
+				DBF3BF941AB3326A00DD30BA /* PopIt */,
+				DBF3BF741AB331F200DD30BA /* AppDelegate.swift */,
+				DBF3BF761AB331F200DD30BA /* ViewController.swift */,
+				DBF3BF781AB331F200DD30BA /* Main.storyboard */,
+				DBF3BF7B1AB331F200DD30BA /* Images.xcassets */,
+				DBF3BF7D1AB331F200DD30BA /* LaunchScreen.xib */,
+				DBF3BF721AB331F200DD30BA /* Supporting Files */,
+				DBF3BFC51AB33A8B00DD30BA /* Poppin-Bridging-Header.h */,
+			);
+			path = Poppin;
+			sourceTree = "<group>";
+		};
+		DBF3BF721AB331F200DD30BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3BF731AB331F200DD30BA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBF3BF871AB331F300DD30BA /* PoppinTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3BF8A1AB331F300DD30BA /* PoppinTests.swift */,
+				DBF3BF881AB331F300DD30BA /* Supporting Files */,
+			);
+			path = PoppinTests;
+			sourceTree = "<group>";
+		};
+		DBF3BF881AB331F300DD30BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3BF891AB331F300DD30BA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBF3BF941AB3326A00DD30BA /* PopIt */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3BFC31AB336C500DD30BA /* GroupedPoppinAnimation.swift */,
+				DBF3BF951AB3327700DD30BA /* PoppinAnimation.swift */,
+				DB7330CC1AB7C262003361AD /* PoppinBasicBuilder.swift */,
+				DBF3BFC91AB33CDD00DD30BA /* PoppinLifeCycleManager.swift */,
+				DB7330CE1AB7CB55003361AD /* PoppinRegister.swift */,
+				DBF286DB1AC25E420046ABB7 /* PoppinSpringBuilder.swift */,
+			);
+			path = PopIt;
+			sourceTree = "<group>";
+		};
+		DBF3BF971AB334A000DD30BA /* FSwift */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3BF981AB334A000DD30BA /* Color.swift */,
+				DBF3BF991AB334A000DD30BA /* Concurrency */,
+				DBF3BF9D1AB334A000DD30BA /* Date.swift */,
+				DBF3BF9E1AB334A000DD30BA /* Dictionary.swift */,
+				DBF3BF9F1AB334A000DD30BA /* List */,
+				DBF3BFA11AB334A000DD30BA /* Logging.swift */,
+				DBF3BFA21AB334A000DD30BA /* Network */,
+				DBF3BFA41AB334A000DD30BA /* Optional */,
+				DBF3BFA71AB334A000DD30BA /* Rect.swift */,
+				DBF3BFA81AB334A000DD30BA /* Segue.swift */,
+				DBF3BFA91AB334A000DD30BA /* Storage.swift */,
+				DBF3BFAA1AB334A000DD30BA /* Time */,
+				DBF3BFAD1AB334A000DD30BA /* Try */,
+				DBF3BFAF1AB334A000DD30BA /* UIView */,
+			);
+			name = FSwift;
+			path = PopIt/FSwift;
+			sourceTree = "<group>";
+		};
+		DBF3BF991AB334A000DD30BA /* Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3BF9A1AB334A000DD30BA /* Dispatch.swift */,
+				DBF3BF9B1AB334A000DD30BA /* Future.swift */,
+				DBF3BF9C1AB334A000DD30BA /* Signal.swift */,
+			);
+			path = Concurrency;
+			sourceTree = "<group>";
+		};
+		DBF3BF9F1AB334A000DD30BA /* List */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3BFA01AB334A000DD30BA /* ListExtension.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		DBF3BFA21AB334A000DD30BA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3BFA31AB334A000DD30BA /* ServiceUtil.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DBF3BFA41AB334A000DD30BA /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3BFA51AB334A000DD30BA /* Decoder.swift */,
+				DBF3BFA61AB334A000DD30BA /* OptionalExtension.swift */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
+		DBF3BFAA1AB334A000DD30BA /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3BFAB1AB334A000DD30BA /* IntervalExtension.swift */,
+				DBF3BFAC1AB334A000DD30BA /* Timer.swift */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
+		DBF3BFAD1AB334A000DD30BA /* Try */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3BFAE1AB334A000DD30BA /* Try.swift */,
+			);
+			path = Try;
+			sourceTree = "<group>";
+		};
+		DBF3BFAF1AB334A000DD30BA /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3BFB01AB334A000DD30BA /* UIControlExtension.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBF3BF6E1AB331F200DD30BA /* Poppin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF3BF8E1AB331F300DD30BA /* Build configuration list for PBXNativeTarget "Poppin" */;
+			buildPhases = (
+				AD81F8D792B0C412D6030963 /* Check Pods Manifest.lock */,
+				DBF3BF6B1AB331F200DD30BA /* Sources */,
+				DBF3BF6C1AB331F200DD30BA /* Frameworks */,
+				DBF3BF6D1AB331F200DD30BA /* Resources */,
+				A5C45B37C2585CD673FB6FA1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Poppin;
+			productName = Poppin;
+			productReference = DBF3BF6F1AB331F200DD30BA /* Poppin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBF3BF831AB331F300DD30BA /* PoppinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF3BF911AB331F300DD30BA /* Build configuration list for PBXNativeTarget "PoppinTests" */;
+			buildPhases = (
+				DBF3BF801AB331F300DD30BA /* Sources */,
+				DBF3BF811AB331F300DD30BA /* Frameworks */,
+				DBF3BF821AB331F300DD30BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF3BF861AB331F300DD30BA /* PBXTargetDependency */,
+			);
+			name = PoppinTests;
+			productName = PoppinTests;
+			productReference = DBF3BF841AB331F300DD30BA /* PoppinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBF3BF671AB331F200DD30BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Poppin;
+				TargetAttributes = {
+					DBF3BF6E1AB331F200DD30BA = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DBF3BF831AB331F300DD30BA = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DBF3BF6E1AB331F200DD30BA;
+					};
+				};
+			};
+			buildConfigurationList = DBF3BF6A1AB331F200DD30BA /* Build configuration list for PBXProject "Poppin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBF3BF661AB331F200DD30BA;
+			productRefGroup = DBF3BF701AB331F200DD30BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBF3BF6E1AB331F200DD30BA /* Poppin */,
+				DBF3BF831AB331F300DD30BA /* PoppinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBF3BF6D1AB331F200DD30BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF3BF7A1AB331F200DD30BA /* Main.storyboard in Resources */,
+				DBF3BF7F1AB331F200DD30BA /* LaunchScreen.xib in Resources */,
+				DBF3BF7C1AB331F200DD30BA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF3BF821AB331F300DD30BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5C45B37C2585CD673FB6FA1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD81F8D792B0C412D6030963 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBF3BF6B1AB331F200DD30BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF3BFB31AB334A000DD30BA /* Future.swift in Sources */,
+				DBF3BFC21AB334A000DD30BA /* UIControlExtension.swift in Sources */,
+				DBF3BFB41AB334A000DD30BA /* Signal.swift in Sources */,
+				DBF3BF961AB3327700DD30BA /* PoppinAnimation.swift in Sources */,
+				DBF3BFB91AB334A000DD30BA /* ServiceUtil.swift in Sources */,
+				DBF3BFB81AB334A000DD30BA /* Logging.swift in Sources */,
+				DBF3BFB51AB334A000DD30BA /* Date.swift in Sources */,
+				DBF3BFB11AB334A000DD30BA /* Color.swift in Sources */,
+				DBF3BFC11AB334A000DD30BA /* Try.swift in Sources */,
+				DBF3BFBB1AB334A000DD30BA /* OptionalExtension.swift in Sources */,
+				DB7330CF1AB7CB55003361AD /* PoppinRegister.swift in Sources */,
+				DB7330CD1AB7C262003361AD /* PoppinBasicBuilder.swift in Sources */,
+				DBF3BFC01AB334A000DD30BA /* Timer.swift in Sources */,
+				DBF3BFB61AB334A000DD30BA /* Dictionary.swift in Sources */,
+				DBF3BFB21AB334A000DD30BA /* Dispatch.swift in Sources */,
+				DBF3BF771AB331F200DD30BA /* ViewController.swift in Sources */,
+				DBF3BF751AB331F200DD30BA /* AppDelegate.swift in Sources */,
+				DBF3BFBF1AB334A000DD30BA /* IntervalExtension.swift in Sources */,
+				DBF3BFB71AB334A000DD30BA /* ListExtension.swift in Sources */,
+				DBF3BFC41AB336C500DD30BA /* GroupedPoppinAnimation.swift in Sources */,
+				DBF286DC1AC25E420046ABB7 /* PoppinSpringBuilder.swift in Sources */,
+				DBF3BFBC1AB334A000DD30BA /* Rect.swift in Sources */,
+				DBF3BFCA1AB33CDD00DD30BA /* PoppinLifeCycleManager.swift in Sources */,
+				DBF3BFBA1AB334A000DD30BA /* Decoder.swift in Sources */,
+				DBF3BFBE1AB334A000DD30BA /* Storage.swift in Sources */,
+				DBF3BFBD1AB334A000DD30BA /* Segue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF3BF801AB331F300DD30BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF3BF8B1AB331F300DD30BA /* PoppinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBF3BF861AB331F300DD30BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF3BF6E1AB331F200DD30BA /* Poppin */;
+			targetProxy = DBF3BF851AB331F300DD30BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBF3BF781AB331F200DD30BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF3BF791AB331F200DD30BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBF3BF7D1AB331F200DD30BA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF3BF7E1AB331F200DD30BA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBF3BF8C1AB331F300DD30BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBF3BF8D1AB331F300DD30BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBF3BF8F1AB331F300DD30BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E37649B3CF4E87D6ADC5EADD /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Poppin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Poppin/Poppin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBF3BF901AB331F300DD30BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D8905F85697E8A75760CAD1 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Poppin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Poppin/Poppin-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		DBF3BF921AB331F300DD30BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PoppinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poppin.app/Poppin";
+			};
+			name = Debug;
+		};
+		DBF3BF931AB331F300DD30BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PoppinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poppin.app/Poppin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBF3BF6A1AB331F200DD30BA /* Build configuration list for PBXProject "Poppin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF3BF8C1AB331F300DD30BA /* Debug */,
+				DBF3BF8D1AB331F300DD30BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF3BF8E1AB331F300DD30BA /* Build configuration list for PBXNativeTarget "Poppin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF3BF8F1AB331F300DD30BA /* Debug */,
+				DBF3BF901AB331F300DD30BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF3BF911AB331F300DD30BA /* Build configuration list for PBXNativeTarget "PoppinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF3BF921AB331F300DD30BA /* Debug */,
+				DBF3BF931AB331F300DD30BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBF3BF671AB331F200DD30BA /* Project object */;
+}
